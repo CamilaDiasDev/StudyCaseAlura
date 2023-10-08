@@ -1,0 +1,61 @@
+
+
+<!-- <meta charset="UTF-8"> 
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+    function calculaImc(altura, peso) {
+
+        return peso / (altura * altura);
+}
+
+var alturaInformada = 1.71;
+var pesoInformado = 73;
+
+</script>
+Para calcular o IMC, abaixo das variáveis que acabamos de criar, teremos a var imc, que receberá o calculaImc() com os parâmetros alturaInformada e pesoInformado: -->
+
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+    function calculaImc(altura, peso) {
+
+        return Math.round (peso / (altura * altura));
+}
+
+var nome = prompt("Informe seu nome")
+var alturaInformada = prompt("Informe sua altura");
+var pesoInformado = prompt("Informe seu peso");
+
+
+var imc = calculaImc(alturaInformada, pesoInformado)
+
+document.write(nome + " seu imc é "+ imc)
+
+
+</script>
