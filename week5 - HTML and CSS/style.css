@@ -6,14 +6,13 @@
 }
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
 .titulo-destaque{
-    color: #22D4FD;
+    color: #f41283;
 }
 
 .apresentacao{
@@ -54,18 +53,18 @@ body{
 
 .apresentacao__links__link{
     /* background-color: #22D4FD; */
-    border: 2px solid #22D4FD;
-    width: 378px;
+    border: 3px solid #f41283;
+    width: 300px;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 24px;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 20.5px 0;
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__links__link:hover{
-    background-color:aqua;
+    background-color:rgb(227, 106, 187);
 }
